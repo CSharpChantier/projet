@@ -41,9 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="ConstructionSite.cs" />
     <Compile Include="Employee.cs" />
+=======
+    <Compile Include="Class1.cs" />
+    <Compile Include="Compactor.cs" />
+    <Compile Include="ConcretePump.cs" />
+    <Compile Include="Hoist.cs" />
+    <Compile Include="Machine.cs" />
+    <Compile Include="MechanicalDigger.cs" />
+    <Compile Include="MobileMachine.cs" />
+>>>>>>> 06f245162e1552a8cbe49e840f8d4b118b4cc326
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Truck.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
